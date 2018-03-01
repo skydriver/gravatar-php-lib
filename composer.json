@@ -1,0 +1,22 @@
+{
+    "name": "skydriver/gravatar-php-lib",
+    "description": "PHP Library for Gravatar",
+    "keywords": ["php", "gravatar", "profile", "avatar"],
+    "homepage": "https://github.com/skydriver/gravatar-php-lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damjan Krstevski",
+            "email": "krstevski.damjan@live.com",
+            "homepage": "https://github.com/skydriver"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gravatar\\": "src/"
+        }
+    }
+}
